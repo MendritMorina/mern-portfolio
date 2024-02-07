@@ -1,16 +1,20 @@
 import React from 'react';
 import './App.css';
+import {BrowserRouter,Routes, Route} from "react-router-dom";
+import Home from "./screens/Home";
 
 function App() {
-
   //h-screen = height: 100vh
   //items-center = align-items: center (horizontal center)
   //justify-center = align-items: center (vertical center)
+  //font-semibold = font-weight: 600;
 
   return (
-    <div className="App flex h-screen items-center justify-center">
-      <h1 className='text-5xl'>Mern</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
