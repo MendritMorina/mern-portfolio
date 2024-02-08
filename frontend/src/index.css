@@ -4,6 +4,137 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   font-family: 'Rubik', sans-serif;
 }
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0A192F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #013f3c7f;
+  border-radius: 10px;
+}
+
+.m{
+  animation: m 1s infinite;
+}
+
+@keyframes m {
+  0% {
+   opacity: 1;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 0.5;
+  }
+}
+
+.e{
+  animation: e 1s infinite;
+}
+
+@keyframes e {
+  0% {
+    opacity: 0.5;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0.5;
+  }
+}
+
+.n{
+  animation: n 1s infinite;
+}
+
+@keyframes n {
+  0% {
+    opacity: 0.5;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.d{
+  animation: d 1s infinite;
+}
+
+@keyframes d {
+  0% {
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 0.5;
+  }
+}
+
+.r{
+  animation: r 1s infinite;
+}
+
+@keyframes r {
+  0% {
+    opacity: 0.5;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0.5;
+  }
+}
+
+.i{
+  animation: i 1s infinite;
+}
+
+@keyframes i {
+  0% {
+    opacity: 1;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0.5;
+  }
+}
+
+.t{
+  animation: t 1s infinite;
+}
+
+@keyframes t {
+  0% {
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 0.5;
+  }
+}
+
+
+
+
+

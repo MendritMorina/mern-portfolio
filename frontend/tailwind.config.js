@@ -11,6 +11,12 @@ module.exports = {
         "tertiary":"#54d688"
       }
     },
+    screens: {
+      'lg': {'max': '2023px'},
+
+      'sm': {'max': '1000px'},
+
+    }
   },
   plugins: [],
 }
